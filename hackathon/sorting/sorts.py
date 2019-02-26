@@ -1,3 +1,5 @@
+from .utils import merge
+
 __all__ = [
     'bubble_sort',
     'merge_sort',
