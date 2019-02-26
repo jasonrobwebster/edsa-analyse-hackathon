@@ -10,3 +10,7 @@ Run `python setup.py sdist` to create a local distribution of the package.
 # Usage
 
 The sole purpose of this package is to serve as the model solution for the Analyse hackathon, and is meant to be autograded. This is to teach students the fundamentals of building their own python package.
+
+# Testing
+
+This package also provides an example of unit testing with `pytest`. Run `pip install pytest`  to install `pytest`, then run `pytest` to run the testing script.
