@@ -1,11 +1,13 @@
+# these unit tests make use of pytest
+# run `pip install pytest` to install
+# run `pytest` to test the functionality of the package
+
 import hackathon
 
 from hackathon.sorting import bubble_sort, merge_sort, quick_sort
 from hackathon.recursion import sum_array, factorial, fibonacci, reverse
 
 try:
-    # these unit tests make use of pytest
-    # run `pip install pytest` to install
     import pytest
 except ImportError:
     pass
