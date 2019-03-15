@@ -5,9 +5,10 @@ __all__ = [
     'reverse'
 ]
 
-def sum_array():
-    # Not properly defined
-    return
+def sum_array(array):
+    if len(array) == 0:
+        return 0
+    return array[0] + sum_array(array[1:])
 
 def factorial(n):
     if n < 0:
@@ -24,6 +25,7 @@ def fibonacci(x):
     else:
         return fibonacci(x-1) + fibonacci(x-2)
 
-def reverse():
-    # Not properly defined
-    return
+def reverse(word):
+    if len(word) == 0:
+        return ''
+    return word[-1] + reverse(word[:-1])

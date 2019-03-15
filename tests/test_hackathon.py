@@ -30,8 +30,10 @@ def test_quick_sort():
 
 
 def test_sum_array():
-    # TODO: Define sum_array
-    pass
+    assert sum_array([1, 1, 1, 1]) == 4
+    assert sum_array([1, 2, 3, 4]) == 10
+    assert sum_array([-1, 1]) == 0
+    assert sum_array([]) == 0
 
 def test_fibonacci():
     with pytest.raises(TypeError):
@@ -52,5 +54,6 @@ def test_factorial():
     assert factorial(4) == 24
 
 def test_reverse():
-    # TODO: Define reverse
-    pass
+    assert reverse('jason') == 'nosaj'
+    assert reverse('word') == 'drow'
+    assert reverse('') == ''
