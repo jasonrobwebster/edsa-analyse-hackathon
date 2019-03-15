@@ -18,7 +18,7 @@ def factorial(n):
     return n * factorial(n-1)
 
 def fibonacci(x):
-    if x <0:
+    if x < 0:
         raise TypeError('Given value is less than 0!')
     if x == 0 or x==1:
         return 1
